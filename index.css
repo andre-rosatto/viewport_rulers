@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #123456;
+}
+
+.ruler {
+	display: flex;
+	color: white;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+}
+
+.ruler p {
+	margin: 5px 5px;
+}
+
+.line {
+	background-color: white;
+}
+
+#horizontal {
+	width: 100%;
+}
+
+#horizontal .line {
+	width: 100%;
+	height: 1px;
+}
+
+#vertical {
+	height: 100%;
+	flex-direction: column;
+}
+
+#vertical .line {
+	height: 100%;
+	width: 1px;
+}
